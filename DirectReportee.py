@@ -1,7 +1,7 @@
 import win32com.client
 import os.path
 import json
-Def getDirectReportee(name):
+def getDirectReportee(name):
   outlook = win32com.client.gencache.EnsureDispatch('Outlook.Application')
   filename = 'data_dr.json'
   dd = {}
